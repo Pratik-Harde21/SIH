@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Faster+One&family=Fredericka+the+Great&family=Rye&display=swap');
+
+/* #third{
+    margin: 0 12% 3% 12%;
+}
+.mid1{
+    margin: 50%;
+    font-style: italic;
+    font-weight: bold;
+}
+.service{
+    width: 23%;
+    margin: 1% 1% 0 3%;
+} */
+
+#eight{
+    margin-bottom: 75px;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    margin: 0 263px
+}
+.blog1{
+    padding: 41px 13px 0 13px;
+    width: 33%;
+    margin: 0 0 0 154px;
+    font-family: 'Baloo Bhai', cursive;
+}
+.btnn{
+    background: #31124b;
+    color: white;
+    border: 2px solid #fa9e1b;
+    width: 135px;
+    height: 46px;
+    border-radius: 21px;
+}
+.btnn:hover{
+    background: #fa9e1b;
+}

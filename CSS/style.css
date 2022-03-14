@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Faster+One&family=Fredericka+the+Great&family=Rye&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 110px;
+    background-color: #00086a85;
+    z-index: 999;
+    opacity: 0.9;
+}
+.head{
+    color: #70ebff;
+    position: absolute;
+    margin-left: 102px;
+}
+.head2{
+    font-family: 'Faster One', cursive;
+    font-size: 63px;
+    margin-right: -6px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    margin-left: 56%;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-top: 9px;
+}
+
+#navbar ul li a{
+    color: white;
+    padding: 3px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 21px;
+}
+#navbar ul li a:hover{
+    background: #8684ff;
+}
+#btn1{
+    /* border: 2px solid black;
+    width: 143px;
+    height: 49px;
+    font-size: 17px;
+    border-radius: 15px; */
+    background: #31124b;
+    color: white;
+    border: 2px solid #fa9e1b;
+    width: 165px;
+    height: 47px;
+    border-radius: 21px;
+    font-size: 19px;
+    margin-left: 2%;
+    cursor: pointer;
+    /* margin-top: 6px; */
+}
+#btn1:hover{
+    background: #fa9e1b;
+}
+
+.my-carousel{
+    margin-top: -111px;
+}
+
+.imp{
+    position: absolute;
+    top: 19%;
+    left: 7%;
+    width: 466px;
+    z-index: 1;
+    color: white;
+    font-size: 98px;
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+
+.imp-sub{
+    position: absolute;
+    top: 87%;
+    left: 76%;
+    width: 466px;
+    z-index: 1;
+    color: white;
+    font-size: 59px;
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+.ten{
+    background-color: #dac3ff;
+    /* background-color: #efefef; */
+    padding: 1px 0px 1px 0;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    margin: 43px 0px 23px 584px;
+}
+.end p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.add{
+    width: 20%;
+}
+.logo img{
+    margin: 3px;
+    cursor: pointer;
+}
