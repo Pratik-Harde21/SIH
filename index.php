@@ -27,7 +27,7 @@
             <li class="item"><a href="/contact.html">Contact Us</a></li>
         </ul>
         <!-- <a href=""><button href="/login.html" id="btn1">Login/ Signup</button></a> -->
-        <a href="login.html"> <button id="btn1">Login/ Signup</button></a>
+        <a href="login.php"> <button id="btn1">Login/ Signup</button></a>
         <!-- <button href="/login.html" id="btn1">Login/ Signup</button> -->
     </nav>
     <div id="carouselExampleCaptions" class="my-carousel carousel slide" data-bs-interval="false" >

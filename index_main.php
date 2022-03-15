@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +24,7 @@
         <ul>
             <li class="item"><a href="/index_main.html">Home</a></li>
             <li class="item"><a href="#">How it works</a></li>
-            <li class="item"><a href="/aboutUs.html">About Us</a></li>
+            <li class="item"><a href="/aboutUs.php">About Us</a></li>
             <li class="item"><a href="/contact.html">Contact Us</a></li>
         </ul>
         
@@ -39,6 +40,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
+           
                 <h1 class="imp">Welcome To India</h1>
                 <img src="Images/temple1.jpg" class="d-block w-100" alt="..." width="1902" height="965px"  style="position: relative;">
                 <h1 class="imp-sub">Varanasi</h1>
@@ -74,13 +76,16 @@
             <img src="images/Babulnath Temple.jpg" alt="" width="350" height="300">
             <h3><b>Babulnath Temple</b></h3>
             <p>Located in the very heart of Mumbai City, at nearly 1000 feet above sea level, over looking the Arabian Sea lies the majestic temple of Lord Babulnath [Lord Shiva]. Even in a city like Mumbai you’ll be surprised to feel peace and tranquility at Babulnath – a place where Almighty resides.</p>
-            <a href="template.html"> <button class="btnn">READ MORE</button></a>
+            <form method="POST" action="template.php">
+                <input type="hidden" type="text" name="user_name" value="b0001">
+                <input class="btnn" type="submit" value="READ MORE">
+            </form>
         </div>
         <div class="blog1">
             <img src="images/mount merry.jpg" alt="" width="350" height="300">
             <h3><b>Mount Mary Church</b></h3>
             <p>For over a hundred years situated atop a hillock near Lands End Bandra, overlooking the Arabian Sea is Mount Mary’s Basilica a beautiful edifice in stone that simply stands out in its grandeur, an abode of tranquility, peace, reassurance and hope!</p>
-            <button class="btnn">READ MORE</button>
+            <a href="template.php"> <button class="btnn">READ MORE</button></a>
         </div>
     </div>
     </section>

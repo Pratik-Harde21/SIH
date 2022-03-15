@@ -14,7 +14,7 @@
         <ul>
             <li class="item"><a href="/index.html">Home</a></li>
             <li class="item"><a href="#second">How it works</a></li>
-            <li class="item"><a href="#third">About Us</a></li>
+            <li class="item"><a href="/aboutUs.php">About Us</a></li>
             <li class="item"><a href="/contact.html">Contact Us</a></li>
         </ul>
         <!-- <button id="btn1">Login/ Signup</button> -->

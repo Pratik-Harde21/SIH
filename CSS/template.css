@@ -159,7 +159,7 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    height: auto;
+    height: 992px;
     width: auto;
     min-height: 100%;
     min-width: 100%;
@@ -188,20 +188,22 @@
 
   .stretch {
     height: auto;
-    background: #F72B2B;
+    background-color: #dac3ff;
     min-height: 100%;
     min-width: 100%;
     background-size: cover;
     margin-top: 800px;
-    
+  
   }
   .stretch h1 {
+
     padding: 20px;
     height: 303px;
     margin-top: -189px;
 
   }
 
+ 
 
   .overlay
 {
@@ -220,3 +222,45 @@
     width:320px;
     height:1240px; 
 } */
+
+.content{
+    width: 36%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    height: 270px;
+    margin: 219px 0 196px 231px;
+    border: 2px solid red;
+    background: wheat;
+    border-radius: 36px;
+}
+.content h1{
+    font-size: 31px;
+    padding: 15px 0 0 15px;
+}
+.content i{
+    padding: 5px 15px 0 0;
+}
+.ten{
+    background-color: #dac3ff;
+    /* background-color: #efefef; */
+    padding: 1px 0px 1px 0;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    margin: 43px 0px 23px 584px;
+}
+.end p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.add{
+    width: 20%;
+}
+.logo img{
+    margin: 3px;
+    cursor: pointer;
+}
+
